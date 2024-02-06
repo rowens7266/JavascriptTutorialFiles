@@ -7,3 +7,6 @@ console.log (fruits[2]);
 
 let cars = new Array('ford', 'toyota', 'mercedes');
 console.log(cars)
+
+
+array asdfasdf
