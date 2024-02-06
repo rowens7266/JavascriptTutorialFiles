@@ -19,13 +19,27 @@
 // }
 
 
-let starRating = 4;
+let starRating = 6;
 
 switch (starRating) {
     case 1:
-        console.log('rating is bad')
+        console.log('rating is bad');
+        break;
+    case 2:
+        console.log('rating is fair');
+        break;
+    case 3:
+        console.log('rating is average');
+        break;
+    case 4:
+        console.log('rating is good');
+        break;
+    case 5:
+        console.log('rating is excellent');
         break;
 
+
     default:
+        console.log('please enter a valid rating value from 1 - 5');
         break;
 }
